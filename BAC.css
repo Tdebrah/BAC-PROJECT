@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman';
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+
+/* .container {
+    background-image: url(BAC_3.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    padding: 10px;
+
+} */
+
+img {
+    width: 280px;
+    height: 300px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.card {
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.2rem;
+    text-align: center;
+
+
+}
+
+#one {
+    background-color: rgb(171, 195, 204);
+    padding: 10px;
+    width: 60%;
+    height: fit-content;
+}
+
+#one h4 {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#slogan {
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    color: #000;
+}
+
+.panel {
+    color: aqua;
+    border: aqua solid 2px;
+    border-radius: 10px;
+    background-color: brown;
+    font-size: 3.5rem;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+#logo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50px;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.container-fluid {
+    background-color: rgb(184, 110, 61);
+    border: aqua solid 2px;
+    border-radius: 10px;
+}
+
+.container-fluid ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.fa {
+    font-size: 80px;
+    color: rgb(255, 166, 0);
+    background-color:aqua ;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+footer {
+    display: flex;
+    background-color: brown;
+    color: aqua;
+    justify-content: space-around;
+}
+footer .fa{
+    font-size: 40px;
+    color: rgb(255, 166, 0);
+}
