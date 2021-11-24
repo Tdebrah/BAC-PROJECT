@@ -8,19 +8,19 @@ a {
     text-decoration: none;
     color: aqua;
 }
-
+a:hover{
+    color: orange;
+}
 
 /* .container {
-    background-image: url(BAC_3.jpg);
-    background-repeat: repeat-x;
-    background-attachment: fixed;
-    padding: 10px;
+    overflow-x: hidden;
 
 } */
 
 img {
     width: 280px;
     height: 300px;
+    
 }
 
 .cards {
@@ -35,12 +35,16 @@ img {
     width: fit-content;
     font-size: 1.2rem;
     text-align: center;
+    color: tomato;
+    border: none;
+    padding: 50px;
+    background-color: transparent;
 
 
 }
 
 #one {
-    background-color: rgb(171, 195, 204);
+    background-color: transparent;
     padding: 10px;
     width: 60%;
     height: fit-content;
@@ -61,10 +65,10 @@ img {
 
 .panel {
     color: aqua;
-    border: aqua solid 2px;
-    border-radius: 10px;
-    background-color: brown;
-    font-size: 3.5rem;
+    border: rgb(86, 92, 92) solid 1px;
+   
+    background-color: transparent;
+    font-size: 4rem;
     padding: 10px;
     text-align: center;
     display: flex;
@@ -85,9 +89,9 @@ li {
 }
 
 .container-fluid {
-    background-color: rgb(184, 110, 61);
-    border: aqua solid 2px;
-    border-radius: 10px;
+    background-color: transparent;
+    /* border: aqua solid 2px;
+    border-radius: 10px; */
 }
 
 .container-fluid ul {
@@ -100,7 +104,7 @@ li {
 .fa {
     font-size: 80px;
     color: rgb(255, 166, 0);
-    background-color:aqua ;
+    /* background-color:aqua ; */
     border-radius: 20px;
     padding: 5px;
 
@@ -108,14 +112,15 @@ li {
 
 footer {
     display: flex;
-    background-color: brown;
+    background-color: gray;
     color: aqua;
     justify-content: space-around;
 }
 footer .fa{
-    font-size: 40px;
+    font-size: 20px;
     color: rgb(255, 166, 0);
 }
+
 
 video{
     position:fixed;
@@ -123,7 +128,13 @@ video{
     height: 100%;
     z-index:-100;
     object-fit: cover;
-    overflow: hidden;
+    overflow-x: hidden;
+    opacity: 90%;
+}
+.upEvents{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Media responsiveness */
