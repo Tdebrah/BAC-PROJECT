@@ -1,6 +1,10 @@
 * {
     padding: 0;
     margin: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     font-family: 'Times New Roman';
 }
 
@@ -8,8 +12,21 @@ a {
     text-decoration: none;
     color: aqua;
 }
+
+#lessons{
+    display: block;
+}
+#lessons select{
+    font-size: inherit;
+    color: aqua;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: none;
+}
+
 a:hover{
-    color: orange;
+    color: tomato;
 }
 
 /* .container {
@@ -25,7 +42,9 @@ img {
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    /* justify-content: space-between; */
     padding: 10px;
 
 }
@@ -62,12 +81,21 @@ img {
     font-style: italic;
     color: #000;
 }
+.realHead{
+    border: brown solid 3px;
+    height: fit-content;
+    position:static;
+   
 
+}
+.realBody{
+    border: rgb(57, 219, 7) solid 4px;
+}
 .panel {
     color: aqua;
-    border: rgb(86, 92, 92) solid 1px;
+    /* border: rgb(86, 92, 92) solid 1px; */
    
-    background-color: transparent;
+    background-color: rgb(47, 47, 88);
     font-size: 4rem;
     padding: 10px;
     text-align: center;
@@ -89,7 +117,8 @@ li {
 }
 
 .container-fluid {
-    background-color: transparent;
+    background-color: rgb(54, 54, 104);
+    height: 50px;
     /* border: aqua solid 2px;
     border-radius: 10px; */
 }
@@ -103,7 +132,7 @@ li {
 
 .fa {
     font-size: 80px;
-    color: rgb(255, 166, 0);
+    color: tomato;
     /* background-color:aqua ; */
     border-radius: 20px;
     padding: 5px;
@@ -112,13 +141,13 @@ li {
 
 footer {
     display: flex;
-    background-color: gray;
+    background-color: rgb(47, 47, 88);
     color: aqua;
     justify-content: space-around;
 }
 footer .fa{
     font-size: 20px;
-    color: rgb(255, 166, 0);
+    color: tomato
 }
 
 

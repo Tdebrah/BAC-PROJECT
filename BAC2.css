@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'Times New Roman';
+}
+a {
+    text-decoration: none;
+    color: aqua;
+}
+a:hover{
+    color: tomato;
+}
+li {
+    list-style-type: none;
+}
+.realHead{
+    height: fit-content;
+    position: fixed;
+    z-index: 2;
+}
+.panel{
+    display: flex;
+    color: aqua;
+    background-color: rgb(47, 47, 88);
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.panel img{
+    width: 100px;
+    height: 100px;
+}
+.container-fluid {
+    background-color: rgb(54, 54, 104);
+    height: 50px;
+}
+.container-fluid ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding-top: 5px;
+}
+.realBody{
+    margin-top: 10.6rem;
+    background-color: rgb(51, 75, 146);
+}
+.realBody img{
+    height: 300px;
+    width: 280px;
+}
+.cards {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+
+}
+#slogan {
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    color: #000;
+}
+
+.card {
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.2rem;
+    text-align: center;
+    color: tomato;
+    border: none;
+    padding: 50px;
+    background-color: transparent;
+
+
+}
+.form{
+    border: tomato solid 3px ;
+    width: 45%;
+    padding: 10px;
+    margin-left: 5rem;
+   padding-bottom: 2px;
+   background-color: rgb(132, 88, 202);
+   border-radius: 20px;
+}
+.form label{
+    color: aqua;
+    font-size: 20px;
+}
+.form button{
+    color: aqua;
+    font-size: 20px;
+    background-color: tomato;
+    border-radius: 2px;
+    border:none;
+    margin: 2px;
+}
+.form h3{
+    color: tomato;
+    text-align: center;
+    padding: 12px;
+    font-size: 2rem;
+}
+.form-control{
+  width: 100%;
+    display: block;
+    padding: 0.5rem;
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: #130744;
+    background-color: #f5efef;
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    outline: none;
+}
+
+.fa {
+    font-size: 80px;
+    color: tomato;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+.upEvents{
+    margin-top: 10px;
+    margin-left: 70px ;
+    display: inline-block;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    margin-left: 200px;
+}
+table{
+    border-collapse: collapse;
+}
+td,
+th{
+    border: 1px solid #000000;
+    padding: 0.5rem;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(47, 47, 88);
+    color: aqua;
+    justify-content: space-around;
+}
+footer .fa{
+    font-size: 20px;
+    color: tomato
+}
+@media all and(max-width = 380){
+    body{
+        overflow-x: hidden;
+    }
+}
